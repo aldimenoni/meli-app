@@ -1,4 +1,4 @@
-##Client
+## Cliente
 Proyecto para la creacion de la aplicación IU con [Next.js](https://nextjs.org/) creada con [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 La aplicación consta de tres paginas:
@@ -6,7 +6,12 @@ La aplicación consta de tres paginas:
  - items/id
  - items/search
 
-###Getting Started
+### Getting Started
+
+Instalar dependencias: 
+``` bash
+npm install
+```
 
 Iniciar el servidor para el cliente:
 
@@ -18,7 +23,7 @@ yarn dev
 
 Abrir [http://localhost:3000](http://localhost:3000) con el navegador para interactuar con la aplicación.
 
-Estructura de proyecto
+### Estructura de proyecto
 
 - `components`
 - `pages`
