@@ -1,0 +1,155 @@
+@import "../node_modules/bulma/bulma.sass";
+@import "./colors.module.scss";
+body {
+	background-color: $light-gray;
+	padding-bottom: 32px;
+	min-height: 100vh;
+}
+
+.navbar {
+	background-color: $yellow;
+
+	.navbar-brand {
+		align-items: center;
+	}
+	input {
+		color: $gray;
+		font-size: 18px;
+		width: 100%;
+		border-color: transparent;
+		border-top-right-radius: unset;
+		border-bottom-right-radius: unset;
+	}
+
+	form {
+		width: 100%;
+		display: flex;
+		align-items: center;
+	}
+
+	.logo {
+		height: 30px;
+		width: auto;
+		cursor: pointer;
+	}
+
+	button {
+		border-top-left-radius: unset;
+		border-bottom-left-radius: unset;
+		background-color: $light-gray;
+		height: 45px;
+		border-color: transparent;
+	}
+}
+
+.no-results {
+	height: 32px;
+}
+
+.breadcrumb {
+	li a {
+		color: $gray;
+		font-size: 14px;
+	}
+	.is-active a {
+		color: $gray !important;
+		font-weight: 500;
+	}
+}
+.search-results {
+	min-height: 100vh;
+	.column {
+		padding: 16px;
+	}
+	a {
+		color: $dark-gray;
+	}
+	p {
+		font-size: 14px;
+	}
+}
+
+.search-card {
+	background-color: $white;
+	border-bottom: 1px solid $light-gray;
+
+	:hover {
+		cursor: pointer;
+		text-decoration: none;
+	}
+	.thumbnail {
+		border-radius: 4px;
+	}
+
+	.search-content {
+		display: grid;
+		.price {
+			font-size: 20px;
+			padding-bottom: 32px;
+
+			span {
+				font-size: 12px;
+				float: right;
+				padding-right: 40px;
+			}
+		}
+
+		label {
+			font-size: 18px;
+		}
+
+		.icon {
+			height: 16px;
+			width: auto;
+		}
+	}
+}
+
+.item-details {
+	background-color: $white;
+	.is-narrow {
+		height: 680px;
+		width: 680px;
+
+		img {
+			object-fit: scale-down;
+		}
+	}
+
+	.item-content {
+		color: $dark-gray;
+		padding: 32px;
+
+		.condition {
+			font-size: 14px;
+		}
+
+		h1 {
+			font-size: 24px;
+			font-weight: 600;
+			padding-bottom: 32px;
+		}
+		.price {
+			font-size: 46px;
+		}
+
+		button {
+			margin-top: 32px;
+			display: block;
+			color: $white;
+			background-color: $blue;
+			width: 100%;
+		}
+	}
+
+	.description {
+		padding: 32px;
+		color: $gray-600;
+
+		h2 {
+			color: $dark-gray;
+			font-size: 28px;
+			padding-bottom: 32px;
+		}
+	}
+}
