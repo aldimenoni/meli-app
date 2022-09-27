@@ -62,6 +62,7 @@ const ViewItem = () => {
 					content="Bienvenido al detalle de producto"
 					key="desc"
 				/>
+				<link rel="shortcut icon" href="./favicon.ico" />
 				<meta property="og:title" content="MELI | Detalle de Producto" />
 				<meta
 					name="viewport"

@@ -45,6 +45,7 @@ const Items = () => {
 		<>
 			<Head>
 				<title>MELI | Resultados de busqueda</title>
+				<link rel="shortcut icon" href="./favicon.ico" />
 				<meta
 					name="description"
 					content="Bienvenido al resultado de busquedas"

@@ -6,6 +6,7 @@ export default function Home() {
 			<div>
 				<Head>
 					<title>MELI | Frontend Test</title>
+					<link rel="shortcut icon" href="./favicon.ico" />
 					<meta
 						name="description"
 						content="Bienvenido al test práctico para aspirantes al área de front-end de Mercado Libre"
